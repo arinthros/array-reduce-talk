@@ -10,6 +10,8 @@
  *   7: 'published'
  * }
  * ```
+ *
+ * `yarn transform`
  */
 
 import { posts } from './data/posts';
