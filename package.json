@@ -1,0 +1,20 @@
+{
+  "name": "array-reduce",
+  "version": "1.0.0",
+  "description": "Presentation on Array.reduce",
+  "main": "index.js",
+  "author": "Bryson Hotopp",
+  "license": "MIT",
+  "packageManager": "yarn@4.5.1",
+  "scripts": {
+    "chain": "ts-node ./src/slide-5_chain.ts"
+  },
+  "devDependencies": {
+    "@types/node": "22.7.8",
+    "@youversion/eslint-config-typescript": "3.0.0",
+    "eslint": "8.57.0",
+    "prettier": "3.3.3",
+    "ts-node": "10.9.2",
+    "typescript": "5.6.3"
+  }
+}
