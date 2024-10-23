@@ -7,7 +7,10 @@
   "license": "MIT",
   "packageManager": "yarn@4.5.1",
   "scripts": {
-    "chain": "ts-node ./src/slide-5_chain.ts"
+    "chain": "ts-node ./src/slide-5_chain.ts",
+    "lint": "eslint .",
+    "typecheck": "tsc --noEmit",
+    "validate": "yarn typecheck & yarn lint"
   },
   "devDependencies": {
     "@types/node": "22.7.8",
