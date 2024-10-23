@@ -12,7 +12,7 @@
  * `yarn chain`
  */
 
-import { type Post, posts } from './data';
+import { type Post, posts } from './data/posts';
 
 // Chaining.
 const lastTwoPublishedPostsChained: Array<Omit<Post, 'status'>> = posts
